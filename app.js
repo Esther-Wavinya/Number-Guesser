@@ -1,5 +1,4 @@
 /*
-
 GAME FUNCTION:
 - Player must guess a number between a min and max
 - Player gets a certain amount of guesses
@@ -42,8 +41,6 @@ guessBtn.addEventListener('click', function(){
     setMessage(`Please enter a number between ${min} and ${max}`, 'red');
   }
 
-
-  
   // Check if won
   if(guess === winningNum){
     // Game over - won
@@ -100,4 +97,3 @@ function setMessage(msg, color){
   message.style.color = color;
   message.textContent = msg;
 }
-  
